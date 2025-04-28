@@ -1,0 +1,67 @@
+import java.util.Scanner;
+
+public class MadLibs
+{
+    public static void main(String[] args)
+    {
+    Scanner input = new Scanner(System.in);
+
+
+    System.out.println("Enter an adjective ");
+    String adj = input.nextLine();
+    
+    System.out.println("Enter an adjective");
+    String adj2 = input.nextLine();
+    System.out.println("Enter a plural noun ");
+    String PlurN = input.nextLine();
+    System.out.println("Enter a plural noun ");
+    String PlurN2 = input.nextLine();
+    System.out.println("Enter an adjective ");
+    String adj3 = input.nextLine();
+    System.out.println("Enter a noun ");
+    String noun = input.nextLine();    
+    System.out.println("Enter a noun  ");
+    String noun2 = input.nextLine();    
+    System.out.println("Enter a plural noun ");
+    String PlurN3 = input.nextLine();    
+    System.out.println("Enter an adjective  ");
+    String adj4 = input.nextLine();        
+    System.out.println("Enter a person in room (male) ");
+    String persIR = input.nextLine();        
+    System.out.println("Enter an adjective");
+    String adj5 = input.nextLine();      
+    System.out.println("Enter a noun");
+    String noun3 = input.nextLine();   
+    System.out.println("Enter an adjective");
+    String adj6 = input.nextLine();   
+    System.out.println("Enter a noun");
+    String noun4 = input.nextLine();     
+    System.out.println("Enter a plural noun ");
+    String PlurN4 = input.nextLine();  
+    System.out.println("Enter a plural noun ");
+    String PlurN5 = input.nextLine();    
+    System.out.println("Enter an adjective");
+    String adj7 = input.nextLine(); 
+     System.out.println("Enter an adjective");
+    String adj8 = input.nextLine(); 
+     System.out.println("Enter an adjective");
+    String adj9 = input.nextLine(); 
+    
+    System.out.println();
+    System.out.println();
+    System.out.println();
+    System.out.println();
+
+    System.out.println("Ladies and gentlemen, on this " + adj + " Occasion, it is a privilege to address such a/an "+ adj2 );
+    System.out.println( "- looking group of " + PlurN + " I can tell from your smiling " + PlurN2 + " that you will support my "+adj3);
+    System.out.println("program in the coming election. I promise that, if elected,there will be a/an " + noun + " in every " + noun2 );
+    System.out.println("and two " + PlurN3 + " in every garage. I want to warn you against my " + adj4 + " opponent, Mr. " + persIR + ". The man is nothing but a/an "+adj5+" "+noun3 );   
+    System.out.println("He has a/an " + adj6 + " character and is working " + noun4 + " in glove with the crimical element. If elected, I promise to eliminate vice. I will keep " + PlurN4 );
+    System.out.println("off the city's streets. I will keep crooks from dipping their " + PlurN5 + " in the public till. I promise you " + adj7 + " government " + adj8 + " taxes, and " + adj9 + " schools.");
+    
+    
+    
+    
+    
+    }
+}
